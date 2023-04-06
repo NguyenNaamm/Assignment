@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buổi 4- Bài Tập</title>
+    <link
+      rel="stylesheet"
+      href="../../bootstrap-5.2.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <header>
+    <div>
+      <a href="#" class="page"><h1>Laptop</h1></a>
+    </div>
+  </header>
+
+  <body ng-app="demo_routing">
+    <div class="container">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#chu"
+            ><button type="button" class="btn btn-outline-warning">
+              Trang Chủ
+            </button></a
+          >
+          <a class="navbar-brand" href="#1"
+            ><button type="button" class="btn btn-outline-warning">
+              Giới Thiệu
+            </button></a
+          >
+          <a class="navbar-brand" href="#2"
+            ><button type="button" class="btn btn-outline-warning">
+              Danh Mục Sản Phẩm
+            </button>
+          </a>
+          <a class="navbar-brand" href="#3"
+            ><button type="button" class="btn btn-outline-warning">
+              Giỏ Hàng
+            </button>
+          </a>
+          <a class="navbar-brand" href="#4"
+            ><button type="button" class="btn btn-outline-warning">
+              Đăng Nhập
+            </button></a
+          >
+        </div>
+      </nav>
+    </div>
+
+    <div ng-view></div>
+
+    <footer class="row">
+      <footer class="col-md-4">
+        <ul>
+          <strong><font size="6">Laptop</font></strong>
+        </ul>
+        <ul>
+          Sdt: 123456789
+        </ul>
+        <ul>
+          Email: laptop@gmail.com
+        </ul>
+      </footer>
+      <footer class="col-md-2">
+        <ul>
+          <strong><font size="3">Địa chỉ</font></strong>
+        </ul>
+        <ul>
+          Cơ sở 1: Hà Đông- Hà Nội
+        </ul>
+        <ul>
+          Cơ sở 2: Nga Sơn- Thanh Hóa
+        </ul>
+        <ul>
+          Cơ sở 3: Quận 1- Hồ Chí Minh
+        </ul>
+        <ul>
+          Cơ sở 4: Quận 10- Hồ Chí Minh
+        </ul>
+      </footer>
+      <footer class="col-md-2">
+        <ul>
+          <strong><font size="3">Địa chỉ dán shin</font></strong>
+        </ul>
+        <ul>
+          Cơ sở 1: Hà Đông- Hà Nội
+        </ul>
+        <ul>
+          Cơ sở 2: Nga Sơn- Thanh Hóa
+        </ul>
+        <ul>
+          Cơ sở 3: Quận 2- Hồ Chí Minh
+        </ul>
+      </footer>
+    </footer>
+    <script src="../../angular-1.8.2/angular.min.js"></script>
+    <script src="../../angular-1.8.2/angular-route.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
